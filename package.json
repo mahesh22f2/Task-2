@@ -1,0 +1,10 @@
+{
+  "name": "marp-docs",
+  "private": true,
+  "scripts": {
+    "start": "marp -s . --theme-set themes/custom.css",
+    "build:html": "marp slides.md -o dist/slides.html --theme-set themes/custom.css",
+    "build:pdf": "marp slides.md --pdf --allow-local-files --theme-set themes/custom.css",
+    "build:pptx": "marp slides.md --pptx --theme-set themes/custom.css"
+  }
+}
